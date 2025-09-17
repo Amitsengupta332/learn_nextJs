@@ -12,7 +12,7 @@ const CounterPage = () => {
         Increment
       </button>
       <button
-        className="bg-green-500 p-2 gap-2 m-2 "
+        className="btn btn-warning"
         onClick={() => setCounter(counter - 1)}>
         {" "}
         Decrement
